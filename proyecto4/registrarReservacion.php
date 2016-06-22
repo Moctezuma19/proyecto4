@@ -20,6 +20,10 @@
 	<td><input type="text" name="id"/></td>
       </tr>
       <tr>
+  <td>Fecha (DD-MM-AAAA)</td>
+  <td><input type="text" name="fecha"/></td>
+      </tr>
+      <tr>
 	<td> </td>
 	<td><input type="submit" value="REGISTRAR" /></td>
       </tr>

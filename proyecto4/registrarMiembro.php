@@ -14,7 +14,7 @@
   <body>
     <h1>Registro de Miembro</h1>
     <b>Todos los campos son obligatorios</b>
-    <form method="POST" action="registrandoMiembro.php"/>
+    <form method="POST" action="miembroRegistrado.php"/>
     <table>
       <tr>
 	<td>Nombre:  </td>

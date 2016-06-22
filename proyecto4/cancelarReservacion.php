@@ -21,7 +21,7 @@
       </tr>
       <tr>
 	<td> </td>
-	<td><input type="submit" value="REGISTRAR" /></td>
+	<td><input type="submit" value="ACEPTAR" /></td>
       </tr>
     </table>
   </body>
