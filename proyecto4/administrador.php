@@ -36,7 +36,7 @@
      echo "<td><a href = 'registrarVenta.php' >Registrar venta</a></td>";
      echo "</tr>";
      echo "<tr>";
-     echo "<td><a href = 'agregarProducto.php' >Agregar Producto</a></td>";
+     echo "<td><a href = 'registrarProducto.php' >Agregar Producto</a></td>";
      echo "</tr>";
      echo "<tr>";
      echo "<td><a href = 'editarProducto.php' >Editar Producto</a></td>";
