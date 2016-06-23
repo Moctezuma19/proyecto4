@@ -25,6 +25,8 @@ SET time_zone = "+00:00";
 --
 -- Estructura de tabla para la tabla `miembros`
 --
+CREATE DATABASE `cafeteria`;
+USE `cafeteria`;
 
 CREATE TABLE `miembros` (
   `id` varchar(10) NOT NULL DEFAULT '',

@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>Editando Producto</title>
+    <meta charset="utf-8" />
+    <style>
+    body {
+    background-image:url(imagenes/taza.jpg);
+    background-repeat:repeat;
+    }
+    </style>
+  </head>
+  
+  <body>
+    
+    <?php 
+       include("./conexion.php");
+       
+       $nombre=$_POST["producto"];
+       
+       $consulta="SELECT * FROM consola WHERE nombre='$nombre'";
+       $resultado=$conexion->query($consulta);
+    
+    while($row=$resultado->fetch_assoc()) {
+    $name=$row["nombre"];
+    $precio=$row["precio"];	
+    }
+    ?>
+    
+    <b> Proporciona la siguiente información para editar una consola </b>
+    <form method="POST" action="editandoConsola2.php" enctype="multipart/form-data" >
+      <table>
+	<tr>
+	  <td>Nombre de Producto </td>
+	  <?php
+	     
+	     echo "<td><input type='text' name='nombre' value='$name' readonly /></td>";
+	     
+	     ?>
+	</tr>
+	<tr>
+	  <td>Precio </td>
+	  <td>$<input type="text" name="precio" maxlength="4" size="5"
+		      value="<?php echo $precio; ?>"
+		      /> </td>
+	</tr>
+	<tr>
+	  <td> </td>
+	  <td><input type="submit" value="Aceptar" /></td>
+	</tr>
+	
+	<input type="date" />
+	<input type="color" />
+      </table>
+    </form>    
+  </body>
+</html>

@@ -42,10 +42,10 @@
      echo "<td><a href = 'editarProducto.php' >Editar Producto</a></td>";
      echo "</tr>";
      echo "<tr>";
-     echo "<td><a href = 'borrarProducto.php' >Borrar Producto</a></td>";
+     echo "<td><a href = 'eliminarProducto.php' >Borrar Producto</a></td>";
      echo "</tr>";
      echo "<tr>";
-     echo "<td><a href = 'descargar.php' >Descargar Inventario</a></td>";
+     echo "<td><a href = 'descarga.php' >Descargar Inventario</a></td>";
      echo "</tr>";
      echo "</table>";
      echo "</center>";
