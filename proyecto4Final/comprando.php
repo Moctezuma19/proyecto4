@@ -42,6 +42,6 @@
 
 	echo "<body><form action = 'registraCompra.php' method = 'POST'/><table>";
 	echo "<tr><td>ID</td><td><input type='text' name= 'id' value='$id' readonly/></td></tr>";
-	echo "<tr><td>Total $</td><td><input type='number' name= 'id' value=".$total." readonly/></td></tr>";	      echo "<tr><td> </td><td><input type='submit' value='Pagar'/></td></tr>";
+	echo "<tr><td>Total $</td><td><input type='number' name= 'total' value=".$total." readonly/></td></tr>";	      echo "<tr><td> </td><td><input type='submit' value='Pagar'/></td></tr>";
 	echo "</table><a href='comprar.php'>Volver al menú de compra</a><p> </p><a href = 'index.php'>Volver a la página principal</a></body></html>"
 ?>
