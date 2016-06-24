@@ -38,7 +38,11 @@ INSERT INTO `administrador` (`password`) VALUES
 ('lolo');
 
 -- --------------------------------------------------------
-
+CREATE TABLE `pagos` (
+ `id` varchar(10) DEFAULT NULL,
+ `fecha` varchar(255) DEFAULT NULL,
+ `cantidad` int(10) DEFAULT 0
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 --
 -- Estructura de tabla para la tabla `miembros`
 --
